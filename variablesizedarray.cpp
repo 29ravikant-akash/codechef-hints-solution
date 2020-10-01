@@ -1,8 +1,4 @@
-#include <cmath>
-#include <cstdio>
-#include <vector>
-#include <iostream>
-#include <algorithm>
+#include <bits/stdc++.h>
 using namespace std;
 
 
@@ -14,14 +10,14 @@ int main() {
     vector<vector<int> >stuff;
     for(int i=0;i<n;i++)
     { cout<<"enter size of array : ";
-	  cin>>size;
+      cin>>size;
       vector<int> temp;
       int x;
       cout<<"enter data : ";
       for(int j=0;j<size;j++)
       { cin>>x;
         temp.push_back(x);
-	  }
+      }
       
       stuff.push_back(temp);	    
     }
@@ -31,7 +27,7 @@ int main() {
       cout<<"enter array index and index : ";
       cin>>arrindex>>index;
       cout<<stuff[arrindex][index]<<endl;
- 	}
+    }
     
 
     return 0;
